@@ -50,6 +50,11 @@ VisionLab-CV is a powerful computer vision desktop application built with PyQt5 
 ### Required Dependencies
 
 ```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
+```bash
 pip install PyQt5 opencv-python numpy
 ```
 
@@ -71,7 +76,7 @@ pip install PyQt5 opencv-python numpy
 
 2. **Install Dependencies**
    ```bash
-   pip install PyQt5 opencv-python numpy
+   pip install -r requirements.txt
    ```
 
 3. **Run the Application**
@@ -233,7 +238,8 @@ git clone https://github.com/Youssef-Abo-El-Ela/ImageStudio-2.git
 cd ImageStudio-2
 
 # Install development dependencies
-pip install PyQt5 opencv-python numpy pytest black
+pip install -r requirements.txt
+pip install pytest black flake8
 
 # Run tests (if available)
 python -m pytest
