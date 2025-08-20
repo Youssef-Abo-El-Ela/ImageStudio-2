@@ -1,4 +1,4 @@
-# VisionLab-CV Dependencies
+# VisionLab Dependencies
 # Core GUI Framework
 PyQt5>=5.15.0
 
@@ -7,8 +7,3 @@ opencv-python>=4.5.0
 
 # Numerical Computing
 numpy>=1.19.0
-
-# Optional Development Dependencies (uncomment if needed)
-# pytest>=6.0.0
-# black>=21.0.0
-# flake8>=3.8.0
